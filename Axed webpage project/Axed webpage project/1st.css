@@ -1,0 +1,68 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+/* nav */
+.social-link {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background: #ddd;
+  text-decoration: none;
+  color: #555;
+}
+
+strong {
+  font-size: 40px;
+}
+/* nav */
+
+.nav-item{
+  font-size: 20px;
+}
+
+.nav-item:hover{
+  text-decoration: underline;
+}
+/* btn */
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}
+
+.btn:not(:disabled):not(.disabled):hover{
+  color: white;
+  background-color: rgb(85, 85, 248);
+}
+
+.logo1st{
+  width: 100%;
+}
+
+
+.light {
+  background-color: white;
+}
+
+.py-5{
+  background-color: white;
+  padding-bottom: 0rem!important;
+}
+
+span{
+  font-size: 1.3rem;
+color: black;
+}
+
